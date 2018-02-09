@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8137F7E1202D4F680085FB06 /* FrameworkDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8137F7DF202D4F680085FB06 /* FrameworkDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8137F7E9202D4F7C0085FB06 /* QCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8137F7E7202D4F7C0085FB06 /* QCManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8137F7EA202D4F7C0085FB06 /* QCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8137F7E8202D4F7C0085FB06 /* QCManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8137F7DC202D4F680085FB06 /* FrameworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8137F7DF202D4F680085FB06 /* FrameworkDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkDemo.h; sourceTree = "<group>"; };
 		8137F7E0202D4F680085FB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8137F7E7202D4F7C0085FB06 /* QCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCManager.h; sourceTree = "<group>"; };
+		8137F7E8202D4F7C0085FB06 /* QCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				8137F7DF202D4F680085FB06 /* FrameworkDemo.h */,
 				8137F7E0202D4F680085FB06 /* Info.plist */,
+				8137F7E7202D4F7C0085FB06 /* QCManager.h */,
+				8137F7E8202D4F7C0085FB06 /* QCManager.m */,
 			);
 			path = FrameworkDemo;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8137F7E9202D4F7C0085FB06 /* QCManager.h in Headers */,
 				8137F7E1202D4F680085FB06 /* FrameworkDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8137F7EA202D4F7C0085FB06 /* QCManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
